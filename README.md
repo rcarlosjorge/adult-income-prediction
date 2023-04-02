@@ -1,39 +1,40 @@
-# Proyecto de Machine Learning - Adult Income
+# Machine Learning Project - Adult Income
 
-Este proyecto es un ejemplo de cómo utilizar las técnicas de árboles de decisión y random forest para predecir el ingreso de adultos en base a un conjunto de datos llamado adults.csv.
+This project is an example of how to use decision tree and random forest techniques to predict adult income based on a dataset called adults.csv.
 
-## Requisitos
+## Requirements
 
-Para ejecutar este proyecto necesitarás tener instalado:
+To run this project, you will need to have installed:
 
 Python 3.x
 Jupyter Notebook
-Las librerías de Scikit-Learn, Numpy y Pandas
+Scikit-Learn, Numpy, and Pandas libraries
 
-## Conjunto de datos
+## Dataset
 
-El conjunto de datos adults.csv contiene información sobre personas de más de 16 años, incluyendo su edad, educación, estado civil, ocupación y otros atributos. El objetivo es predecir si una persona gana más o menos de $50,000 al año en función de estos atributos.
+The adults.csv dataset contains information about individuals over 16 years old, including their age, education, marital status, occupation, and other attributes. The goal is to predict whether a person earns more or less than $50,000 per year based on these attributes.
 
-El conjunto de datos se encuentra en la carpeta data del proyecto.
+The dataset can be found in the data folder of the project.
 
-## Árboles de Decisión y Random Forest
+## Decision Tree and Random Forest
 
-Para resolver este problema de clasificación binaria, se han utilizado dos técnicas de aprendizaje automático: árboles de decisión y random forest.
+To solve this binary classification problem, two machine learning techniques have been used: decision tree and random forest.
 
-Los árboles de decisión son modelos de aprendizaje supervisado que se utilizan para la clasificación y la regresión. En este proyecto, se ha utilizado un árbol de decisión para predecir el ingreso de los adultos.
-Random forest es un método de aprendizaje automático que se utiliza para la clasificación, la regresión y otras tareas. En este proyecto, se ha utilizado un random forest para predecir el ingreso de los adultos.
+Decision trees are supervised learning models used for classification and regression. In this project, a decision tree has been used to predict adult income.
 
-## Cómo ejecutar el proyecto
+Random forest is a machine learning method used for classification, regression, and other tasks. In this project, a random forest has been used to predict adult income.
 
-Descarga el repositorio desde GitHub y extrae los archivos en una carpeta local.
-Abre una terminal y navega hasta la carpeta del proyecto.
-Ejecuta el comando jupyter notebook para iniciar Jupyter Notebook.
-Abre el archivo adult_income_prediction.ipynb.
-Ejecuta las celdas del notebook para cargar los datos, entrenar y evaluar los modelos.
-Resultados
+## How to Run the Project
 
-Los modelos de árbol de decisión y random forest han sido entrenados y evaluados con una precisión de aproximadamente el 85% en la predicción del ingreso de los adultos.
+Download the repository from GitHub and extract the files to a local folder.
+Open a terminal and navigate to the project folder.
+Run the command "jupyter notebook" to start Jupyter Notebook.
+Open the file "adult_income_prediction.ipynb".
+Run the notebook cells to load the data, train and evaluate the models.
+Results
 
-## Conclusiones
+The decision tree and random forest models have been trained and evaluated with an accuracy of approximately 85% in predicting adult income.
 
-Este proyecto demuestra cómo utilizar las técnicas de árboles de decisión y random forest para predecir el ingreso de los adultos en base a un conjunto de datos de atributos. Los modelos entrenados han sido capaces de predecir con precisión el ingreso de las personas con una precisión de alrededor del 85%.
+## Conclusions
+
+This project demonstrates how to use decision tree and random forest techniques to predict adult income based on attribute data. The trained models were able to accurately predict income for individuals with an accuracy of around 85%.
