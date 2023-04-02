@@ -1,6 +1,6 @@
 # Machine Learning Project - Adult Income
 
-This project is an example of how to use decision tree and random forest techniques to predict adult income based on a dataset called adults.csv.
+This project is an example of how to use decision tree and random forest techniques to predict adult income based on a dataset called (`adults.csv`).
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Random forest is a machine learning method used for classification, regression, 
 Download the repository from GitHub and extract the files to a local folder.
 Open a terminal and navigate to the project folder.
 Run the command "jupyter notebook" to start Jupyter Notebook.
-Open the file "adult_income_prediction.ipynb".
+Open the file `adult_income_prediction.ipynb`.
 Run the notebook cells to load the data, train and evaluate the models.
 Results
 
